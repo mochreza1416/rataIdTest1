@@ -1,21 +1,21 @@
 ## Test Case 1 Backend Engineer ##
 
-#### software yang perlu untuk di install
+#### Software yang perlu untuk di install
 
-* install node.js
-* install dependencies:
+* Install node.js
+* Install dependencies:
 ```bash 
 npm install
 ```
-* install nodemon: 
+* Install nodemon: 
 ```bash     
 npm install -g nodemon
 ```
-* install WAMP Server atau XAMP untuk mysql
-* install Postman untuk cek API local
+* Install WAMP Server atau XAMP untuk mysql
+* Install Postman untuk cek API local
 * Table akan auto generate berdasarkan model karena menggunakan db.sequelize.sync() tapi harus membuat database rataid di phpmyadmin
-* column id, createAt, dan updateAt akan auto generate ketika create data
-* menjalankan server di local machine : npm start
+* Column id, createAt, dan updateAt akan auto generate ketika create data
+* Menjalankan server di local machine : npm start
 * URL dan query :
 ```bash 
 getListAllProduksi by invoice number : get http://localhost:8081/api/produksi?invoice_number=INV-73456
